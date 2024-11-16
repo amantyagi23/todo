@@ -1,0 +1,58 @@
+body {
+  margin: 10px auto;
+  width: 80%;
+}
+.todo-list {
+  margin: 10px;
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#addBtn {
+  background-color: rgb(245, 73, 73);
+  font-size: large;
+  border: none;
+  padding: 12px;
+  color: #ddd;
+  border-radius: 12px;
+}
+#addBtn:hover {
+  box-shadow: 2px 2px 2px #000;
+  font-size: larger;
+}
+
+.dataForm {
+  display: none;
+  position: absolute;
+  background-color: #ddd;
+  border-radius: 12px;
+  padding: 40px;
+  right: 30%;
+  left: 30%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 12px;
+}
+.showForm {
+  display: block !important;
+}

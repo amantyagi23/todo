@@ -1,0 +1,57 @@
+
+
+
+js -> function and scripting language 
+
+js - > everything wraped under object 
+
+console.log
+console -> object
+
+log -> function
+
+
+
+MVC ->  model view controller 
+
+model -> to store or create a data about a thing 
+user
+task
+product
+
+
+view -> ui 
+
+controller->
+control(js) -> ui -> model  
+
+window.addeventlister->
+
+everything in web is a everything
+button click
+scrol
+
+
+window -> whole tab
+
+DOM, BOM 
+
+used to add some event on tags to listen them
+
+onsumbit
+DOMContentLoaded
+click
+
+is like a function
+addeventlister(on what event,what to do)
+
+
+
+document -> DOM
+read tags
+createElement
+innerHtml 
+innerText 
+appendChild
+
+innerHtml = ""

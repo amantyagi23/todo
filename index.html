@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylesheet/main.css" />
+    <script type="module" src="javascript/controller/index.js"></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="todo-list">TODO List Demo App</div>
+
+    <div class="flex">
+      <p class="margin-10">Do it now.</p>
+      <button id="addBtn">Add Data</button>
+    </div>
+
+    <div class="dataForm">
+      <form action="#" id="details">
+        <div class="grid">
+          <div>
+            <label for="">First Name : </label>
+            <input id="firstName" required type="text" />
+          </div>
+          <div>
+            <label for="">Last Name : </label>
+            <input id="lastName" required type="text" />
+          </div>
+          <div>
+            <label for="">DOB : </label>
+            <input id="dob" required type="date" />
+          </div>
+          <div>
+            <label for="">Phone Number :</label>
+            <input id="phoneNumber" required type="tel" />
+          </div>
+          <div>
+            <label for="">Address :</label>
+            <textarea id="address" required name="" id=""></textarea>
+          </div>
+
+          <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Create</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>DOB</th>
+          <th>Phone Number</th>
+          <th>Address</th>
+          <th>Operation</th>
+        </tr>
+      </thead>
+      <tbody id="printData"></tbody>
+    </table>
+  </body>
+</html>
